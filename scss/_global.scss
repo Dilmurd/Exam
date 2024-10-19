@@ -1,0 +1,26 @@
+@font-face {
+    font-family: int;
+    src: url(../fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+    font-family: pop;
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1202px;
+    width: 100%;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}

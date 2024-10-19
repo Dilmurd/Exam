@@ -1,0 +1,29 @@
+.arrival{
+    margin-top: 80px;
+    .arrival__top{
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        margin-bottom: 30px;
+        div{
+            width: 20px;
+            height: 40px;
+            background-color: #db4444;
+        }
+        p{
+            font-size: 16px;
+            font-family: pop;
+            font-weight: 600;
+            color: #db4444;
+        }
+    }
+    .arrival__title{
+        margin-bottom: 60px;
+        p{
+            font-size: 36px;
+            font-family: int;
+            font-weight: 600;
+            color: #000;
+        }
+    }
+}

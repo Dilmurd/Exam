@@ -1,0 +1,85 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+    margin-top: 140px;
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .footer-section {
+        flex: 1;
+        min-width: 200px;
+        margin: 10px;
+        
+        h3 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 0.9em;
+            line-height: 1.5;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            
+            li {
+                margin-bottom: 5px;
+                
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                    
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+
+        .subscribe-form {
+            display: flex;
+            input {
+                flex: 1;
+                padding: 5px;
+                border: none;
+                border-radius: 5px 0 0 5px;
+            }
+            button {
+                padding: 5px 10px;
+                background-color: #555;
+                color: #fff;
+                border: none;
+                border-radius: 0 5px 5px 0;
+                cursor: pointer;
+                
+                &:hover {
+                    background-color: #777;
+                }
+            }
+        }
+
+        .app-links {
+            display: flex;
+            gap: 10px;
+            
+            a {
+                img {
+                    width: 120px;
+                }
+            }
+        }
+    }
+
+    .footer-bottom {
+        text-align: center;
+        padding: 20px 0;
+        border-top: 1px solid #333;
+        font-size: 0.8em;
+    }
+}

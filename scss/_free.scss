@@ -1,0 +1,44 @@
+.free{
+    margin-top: 140px;
+    .free__wrapper{
+        display: flex;
+        justify-content: center;
+        gap: 88px;
+        .free__card{
+            width: 249px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .free__img__btn{
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                background-color: #ddd;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 24px;
+                .free__btn{
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    border: none;
+                    background-color: #000;
+                }
+            }
+            .free__title{
+                font-size: 20px;
+                font-weight: 600;
+                font-family: pop;
+                color: #000;
+            }
+            .free__subtitle{
+                font-size: 11px;
+                color: #000;
+                font-family: pop;
+                font-weight: 400;
+            }
+        }
+    }
+}

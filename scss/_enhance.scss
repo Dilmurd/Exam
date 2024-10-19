@@ -1,0 +1,53 @@
+.enhance{
+    margin-top: 105px;
+    .enhance__wrapper{
+        display: flex;
+        width: 1202px;
+        height: 500px;
+        background-color: #000;
+        .enhance__text{
+            padding: 69px 56px;
+            .enhance__title{
+                font-size: 16px;
+                font-weight: 600;
+                color: #00ff66;
+                font-family: pop;
+                margin-bottom: 32px;
+            }
+            .enhance__subtitle{
+                font-size: 48px;
+                font-weight: 600;
+                font-family: int;
+                color: #fafafa;
+                margin-bottom: 32px;
+            }
+            .enhance__btns{
+                display: flex;
+                gap: 24px;
+                margin-bottom: 40px;
+                .enhance__btn{
+                    width: 62px;
+                    height: 62px;
+                    border-radius: 50%;
+                    border: none;
+                    background-color: #fff;
+                    font-size: 11px;
+                    font-family: pop;
+                    color: #000;
+                }
+            }
+            .button{
+                padding: 16px 48px;
+                background-color: #00ff66;
+                color: #fafafa;
+                font-size: 16px;
+                font-weight: 500;
+                font-family: pop;
+            }
+        }
+        .enhance__img{
+            margin-top: 50px;
+            margin-right: 20px;
+        }
+    }
+}

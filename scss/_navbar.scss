@@ -1,0 +1,41 @@
+.navbar{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    .navbar__logo{
+        flex: 1;
+        font-size: 24px;
+        font-weight: 700;
+        font-family: int;
+        color: #000;
+    }
+    .navbar__collection{
+        flex: 1;
+        display: flex;
+        gap: 48px;
+        color: #000;
+        font-family: pop;
+        font-size: 16px;
+    }
+    .navbar__inp{
+        width: 200px;
+        height: 38px;
+        background: #F5F5F5;
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+        input{
+            width: 60%;
+            background: #F5F5F5;
+            border: none;
+            outline: none;
+            padding: 0 0 0 10px;
+            flex: 1;
+        }
+    }
+    .navbar__icons{
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+}
